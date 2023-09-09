@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HNG PROFILE</title>
+</head>
+
+<body>
+    <div class="container-slackName">
+        <h3 id="slackUserName" data-testid="slackUserName"></h3>
+    </div>
+    <div class="flexContainer-profile">
+        <div class="box-1">
+            <img src="./image/slackProfilePicture.jpeg" id="slackDisplayImage" data-testid="slackDisplayImage"
+                alt="Elizabeth Udoessien">
+        </div>
+        <div class="box-2">
+            <div class="box-2-content">
+                <div class="slackDisplayName">
+                    <p>Display Name:</p>
+                    <p data-testid="slackUserName">R</p>
+                </div>
+                <div class="currentDay">
+                    <p>Current Day:</p>
+                    <p id="currentDayOfTheWeek" data-testid="currentDayOfTheWeek"></p>
+                </div>
+
+                <div class="currentTime">
+                    <p>Current UTCTime:</p>
+                    <p id="currentUTCTime" data-testid="currentUTCTime"></p>
+                </div>
+                <div class="track">
+                    <p>My Track:</p>
+                    <p id="myTrack" data-testid="myTrack"></p>
+                </div>
+                <div class="btn">
+                    <button id="githubURL" data-testid=“githubURL”><a href="https://github.com/emem-ette/taskOne">Project
+                            Repo</a></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
